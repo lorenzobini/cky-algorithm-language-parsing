@@ -77,3 +77,5 @@ def read_grammar_rules(istream):
 
         prob = float(fields[2].strip())
         yield Rule(lhs, new_rhs, prob)
+
+main()

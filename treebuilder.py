@@ -2,7 +2,7 @@ import nltk
 from collections import Counter, defaultdict
 from nltk.tree import Tree
 from rule import Rule
-from symbol import Symbol
+from symbol import Symbol, Terminal
 
 
 class Span(Symbol):
